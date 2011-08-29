@@ -9,7 +9,7 @@ print formatter % (
 		"That you could type up right.",
 		"But it didn't sing.",
 		"So I said goodnight"
-	)
+)
 
 # Extra credit 2
 # Because the string contains a single quote
