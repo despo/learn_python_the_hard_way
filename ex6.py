@@ -32,3 +32,9 @@ e = "a string with a right side."
 
 # Print sentences assigned to w and e
 print w + e
+
+# Extra Credit 4
+# because is concatenates the two strings together
+# eg.
+a = w + e
+print a
