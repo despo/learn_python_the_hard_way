@@ -4,7 +4,7 @@ x = "There are %d types of people." % 10
 binary = "binary"
 # Assign don't string literal to do_not variable
 do_not = "don't"
-# Substitute binary and do not variables in sentence
+# Substitute binary and do not variables in sentence - Found two strings within a string
 y = "Those who know %s and those who %s." % (binary, do_not)
 
 # print There are 10 types of people
@@ -12,9 +12,9 @@ print x
 # print Those who know binary and those who don't
 print y
 
-#print I said There are 10 types of people
+#print I said There are 10 types of people - Found a string within a string
 print "I said: %r." % x
-#print I also said: 'Those who know binary and those who don't.'.
+#print I also said: 'Those who know binary and those who don't.'. - Found a string within a string
 print "I also said: '%s'." % y
 
 # Assign False to hilariou
