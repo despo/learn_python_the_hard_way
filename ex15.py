@@ -1,13 +1,9 @@
-# import mofule argv from system
-from sys import argv
+print "Type a file you'll like to read:"
+# read from user input the filename
+file_again = raw_input('>')
 
-# assign the first argument to script and the second to filename
-script, filename = argv
+# open the filename
+txt_again = open(file_again)
 
-# open the file
-txt = open(filename)
-
-# print the filename
-print "Here's your file %r:" % filename
 # read and print the open file
-print txt.read()
+print txt_again.read()
