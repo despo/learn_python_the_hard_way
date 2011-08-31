@@ -2,12 +2,15 @@ from sys import argv
 
 script, input_file = argv
 
+# read (and output) the entire file
 def print_all(f):
   print f.read()
 
+# go back to the beginning of the file
 def rewind(f):
   f.seek(0)
 
+# print the next line of the file, line count is just a random number we pass in
 def print_a_line(line_count, f):
   print line_count, f.readline()
 
