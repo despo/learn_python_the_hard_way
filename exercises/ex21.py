@@ -25,4 +25,8 @@ print "Here's a puzzle."
 
 what = add(age, subtract(height, multiply(weight, divide(iq, 2))))
 
+#extra credit 2, another way of calculating what
+what = age +  height - weight * iq / 2
+
+
 print "That becomes:", what, "Can you do it by hand?"
