@@ -28,5 +28,11 @@ what = add(age, subtract(height, multiply(weight, divide(iq, 2))))
 #extra credit 2, another way of calculating what
 what = age +  height - weight * iq / 2
 
-
 print "That becomes:", what, "Can you do it by hand?"
+
+#extra credit 4
+something = age-(height*2/weight - (iq/age))
+print "Formula calculation for extra credit: %d" % something
+
+something = subtract(age, (subtract(divide(multiply(height, 2), weight), divide(iq, age))))
+print "Formula calculation using methods: %d" % something
