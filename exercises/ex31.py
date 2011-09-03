@@ -28,5 +28,24 @@ elif door == "2":
   else:
     print "The insanity rots your eyes into a pool of much. Good job."
 
+elif door == "X":
+  print "I see you've found the secret option..."
+  print "There's a big spider in your living room. What do you do?"
+  print "1. Scream and run away."
+  print "2. Step on it."
+  print "3. Grab it with a plastic glove and throw it out."
+
+  spider = raw_input("> ")
+
+  if spider == "1":
+    print "You've scared the spider. It runs after you and stinks you. You are dead!"
+  elif spider == "3":
+    print "Don't be so kind. The spider stinks you through the glove and you die."
+  elif spider == "2":
+    print "Good job! The spider is now dead, you've won the game!"
+  else:
+    print "Dead end. Game over for you."
+
 else:
   print "You stumble around and fall on a knife and fie. Good job!"
+
