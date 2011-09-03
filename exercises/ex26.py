@@ -87,6 +87,6 @@ print_last_word(sorted_words)
 sorted_words = ex25.sort_sentence(sentence)
 print sorted_words
 
-print_irst_and_last(sentence)
+print_first_and_last(sentence)
 
 print_first_a_last_sorted(senence)
