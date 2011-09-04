@@ -1,10 +1,10 @@
-def add_numbers_to_list(size):
+def add_numbers_to_list(size, increment=1):
   i = 0
   while i < size:
     print "At the top is %d" % i
     numbers.append(i)
 
-    i = i + 1
+    i = i + increment
     print "Numbers now: ", numbers
     print "At the bottom i is %d" % i
 
