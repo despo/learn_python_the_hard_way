@@ -8,11 +8,17 @@ def add_numbers_to_list(numbers, size):
     print "Numbers now: ", numbers
     print "At the bottom i is %d" % i
 
+def print_numbers(numbers):
+  print "The numbers:"
+
+  for num in numbers:
+    print num
+
 numbers = []
-
 add_numbers_to_list(numbers, 6)
+print_numbers(numbers)
 
-print "The numbers:"
+numbers = []
+add_numbers_to_list(numbers, 3)
+print_numbers(numbers)
 
-for num in numbers:
-  print num
