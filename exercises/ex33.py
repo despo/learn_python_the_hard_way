@@ -1,11 +1,8 @@
 def add_numbers_to_list(size, increment=1):
-  i = 0
-  while i < size:
-    print "At the top is %d" % i
-    numbers.append(i)
+  numbers = range(0,size)
 
-    i = i + increment
-    print "Numbers now: ", numbers
+  for i in numbers:
+    print "At the top is %d" % i
     print "At the bottom i is %d" % i
 
 def print_numbers():
